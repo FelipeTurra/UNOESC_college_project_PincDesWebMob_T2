@@ -4,7 +4,7 @@
 
 @section('content')
 <div>
-    <h1>Novo Usuário</h1>
+    <h1>Login</h1>
     <form method="POST" action="/login">
         @csrf
         <div class="mb-3">
